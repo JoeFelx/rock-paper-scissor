@@ -1,0 +1,105 @@
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #212121;
+}
+
+.container {
+  text-align: center;
+}
+
+.container .heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.4rem;
+  color: #ff4646;
+  text-shadow: 2px 1px #838383;
+}
+
+.content {
+  display: flex;
+  text-align: center;
+  padding: 20px;
+  margin: 0 25%;
+}
+
+.opponent1 {
+  width: 300px;
+  height: 300px;
+  background-color: #838383;
+  border-radius: 10px;
+  margin: 0 20px;
+  box-shadow: 4px 3px #ff0303;
+}
+
+.opponent1 h2 {
+  font-family: "Nerko One", cursive;
+  font-size: 40px;
+  color: #1f1f1f;
+  text-shadow: 2px 3px #ff0303;
+}
+
+.opponent1 img {
+  width: 100px;
+  margin: 0;
+}
+
+.human1 {
+  width: 300px;
+  height: 300px;
+  background-color: #838383;
+  border-radius: 10px;
+  box-shadow: 4px 3px #ff0303;
+}
+
+.human1 h2 {
+  font-family: "Nerko One", cursive;
+  font-size: 40px;
+  color: #1f1f1f;
+  text-shadow: 2px 3px #ff0303;
+}
+
+.human1 img {
+  width: 100px;
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer p {
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  font-family: "Poppins";
+  letter-spacing: 3px;
+  text-shadow: 0.5px 1px #666666;
+}
+
+footer span {
+  color: #ff0000;
+  text-shadow: 0.5px 1px #000000;
+  font-size: 25px;
+}
+
+footer .developed {
+  color: #727171;
+  text-shadow: 0.5px 1px #ca0000;
+  margin-top: 30px;
+}
+
+@media (max-width: 800px) {
+  .content {
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+  }
+  .opponent1 {
+    width: 300px;
+    height: 300px;
+    background-color: #838383;
+    border-radius: 10px;
+  }
+}
