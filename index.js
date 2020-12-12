@@ -8,14 +8,13 @@ document.querySelector(".human1").addEventListener("click", function(){
     console.log(opponentChoice);
 
     var humanChoice = prompt(`                        
-                                            Rock Paper Scissor
+     Rock Paper Scissor
+     Instruction:
 
-                                    Instruction:
-
-                                                Type 
-                                                    "r for Rock"
-                                                    "p for Paper"
-                                                    "s for Scissor"`)
+           Type 
+                "r for Rock"
+                "p for Paper"
+                "s for Scissor"`)
     makeHumanDecision(humanChoice);
 
     if(humanChoice === 'r' && opponentChoice === 's'){
